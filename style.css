@@ -7,14 +7,14 @@
 
 body {
   background-color: #1e2629;
-  padding: 0 10vw;
 }
 
 .flex-row-center {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
+  padding: 0 10vw;
 }
 
 .flex-column-center {
@@ -23,25 +23,72 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding: 0 10vw;
 }
 
 header {
-  justify-content: space-between;
+  justify-content: space-between !important;
+  margin: 10px 0;
 }
 
 .logo {
-  max-height: 200px;
-  
+  max-height: 50px;
 }
 
 ul {
   list-style-type: none;
 }
 
+.text-link {
+  font-family: "Bebas Neue";
+  color: #fefaef;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.text-link:hover {
+  color: #cab98b;
+}
+
 h1, h2, h3, h4, h5, h6, p, li {
   color: #fefaef;
 }
 
-h1 {
+.btn-link {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  background-color: #fefaef;
+  color: #1e2629;
+  padding: 10px 20px;
+  text-decoration: none;
+}
 
+.btn-link:hover {
+  background-color: #cab98b;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.hero-banner-img {
+  background-image: url(Content/DSC04713.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  filter: brightness(80%);
+}
+
+.hero-banner-img a {
+  margin: 50px;
 }
