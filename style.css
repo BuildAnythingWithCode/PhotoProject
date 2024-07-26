@@ -2,17 +2,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: 0px solid red;
 }
 
 body {
-  background-color: #2a2f33;
+  background-color: #1e2629;
   padding: 0 10vw;
 }
 
 .flex-row-center {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .flex-column-center {
@@ -20,4 +22,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 200px;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #fefaef;
+}
+
+h1 {
+
 }
