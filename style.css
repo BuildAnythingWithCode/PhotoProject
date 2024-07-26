@@ -92,3 +92,10 @@ h2 {
 .hero-banner-img a {
   margin: 50px;
 }
+
+#portfolio-flexbox {
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+}
